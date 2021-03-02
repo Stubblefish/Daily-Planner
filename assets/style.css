@@ -1,0 +1,27 @@
+ul.list-group {
+  min-height: 100px;
+}
+
+.hours {
+  background-color: rgb(135, 140, 144);
+}
+
+button {
+  background-color: rgb(135, 140, 144);
+}
+
+.present {
+  background-color: grey;
+}
+
+.past {
+  background-color: rgb(216, 114, 114);
+}
+
+.future {
+  background-color: rgb(119, 174, 226);
+}
+
+.events {
+  padding: 4px;
+}
