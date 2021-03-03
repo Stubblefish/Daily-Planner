@@ -10,6 +10,13 @@ var hoursArr = [
   { id: '8', time: '5PM', hourInt: 17 }
 ];
 
+// display date/time
+
+var today = new Date();
+
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+
+document.getElementById("time").innerHTML = date
 
 // create calendar time slots
 function addTimeSlots(schedule) {
